@@ -32,3 +32,12 @@ app-info {
     width: 20%;
     height: 75%;
 }
+
+@media screen and (max-width: 1010px) {
+    .gold {
+        display: none;
+    }
+    header {
+        width: 100%;
+    }
+}

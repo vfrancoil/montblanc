@@ -32,3 +32,10 @@
         font-size: 10px;
     }
 }
+
+@media screen and (max-width: 1010px) {
+    .nav-list li {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

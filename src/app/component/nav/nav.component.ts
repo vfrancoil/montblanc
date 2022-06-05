@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener  } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -7,9 +7,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  isTablet : boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    if(window.innerWidth <= 1010 && window.innerWidth >= 700) {
+      this.isTablet = true;
+    }
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onWindowResize() {
+    if(window.innerWidth <= 1010 && window.innerWidth >= 700) {
+      console.log("ok")
+      this.isTablet = true;
+    } else {
+
+      this.isTablet = false;
+    }
   }
 
 }
