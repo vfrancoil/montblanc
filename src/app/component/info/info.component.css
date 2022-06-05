@@ -50,9 +50,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease-in .2s;
 }
 
 .middle-text span {
     padding: 0 5px;
     font-size: 12px;
+}
+
+@media screen and (max-width: 1540px) {
+    .middle-text {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .middle-text {
+        font-size: 20px;
+    }
 }

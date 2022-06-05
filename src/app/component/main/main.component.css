@@ -145,6 +145,7 @@
     font-size: 12px;
     line-height: 200%;
     color: #FFFFFF;
+    transition: ease-in .2s;
 }
 
 .main-right {
@@ -199,4 +200,10 @@
     top: 75%;
     left: 0;
     transform: translateY(-75%);
+}
+
+@media screen and (max-width: 1120px) {
+    .info-text {
+        font-size: 10px;
+    }
 }

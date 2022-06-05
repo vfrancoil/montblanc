@@ -24,4 +24,11 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
+    transition: ease-in .2s;
+}
+
+@media screen and (max-width: 1365px) {
+    .nav-list li {
+        font-size: 10px;
+    }
 }
