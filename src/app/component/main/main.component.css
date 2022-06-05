@@ -109,7 +109,7 @@
 .curr-bar,
 .total-bar {
     position: absolute;
-    height: 1px;
+    height: 2px;
 }
 
 .curr-bar {
