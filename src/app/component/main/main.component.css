@@ -286,3 +286,11 @@ app-info {
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .info-text {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {}

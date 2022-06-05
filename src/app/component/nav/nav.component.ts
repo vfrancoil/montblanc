@@ -12,14 +12,14 @@ export class NavComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    if(window.innerWidth <= 1010 && window.innerWidth >= 700) {
+    if(window.innerWidth <= 1010) {
       this.isTablet = true;
     }
   }
 
   @HostListener('window:resize', ['$event'])
   onWindowResize() {
-    if(window.innerWidth <= 1010 && window.innerWidth >= 700) {
+    if(window.innerWidth <= 1010) {
       console.log("ok")
       this.isTablet = true;
     } else {

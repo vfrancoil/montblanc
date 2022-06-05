@@ -39,3 +39,9 @@
         font-weight: 500;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .nav-list li {
+        font-size: 10px;
+    }
+}
