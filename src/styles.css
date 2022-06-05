@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @font-face {
     font-family: "Druk-Wide";
     src: url(./assets/fonts/Druk-Wide-Medium-Regular.ttf);
@@ -17,8 +18,8 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
-    background-color: #000000;
-    color: white;
+    background-color: #060507;
+    overflow: hidden;
 }
 
 app-root {
