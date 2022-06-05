@@ -8,6 +8,10 @@
     overflow: hidden;
 }
 
+app-info {
+    display: none;
+}
+
 .main-left {
     width: 75%;
     height: 100%;
@@ -78,6 +82,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left-pic {
+    display: none;
 }
 
 .slider {
@@ -205,5 +213,76 @@
 @media screen and (max-width: 1120px) {
     .info-text {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .main-left {
+        width: 100%;
+        align-items: flex-end;
+    }
+    .main-right {
+        display: none;
+    }
+    .carousel-box .right-sh {
+        display: none;
+    }
+    .carousel-box .left-sh {
+        display: none;
+    }
+    .logo-carousel {
+        display: none;
+    }
+    .carousel-pic {
+        width: 100%;
+    }
+    .special-carac {
+        top: 60%;
+        left: -10%;
+        transform: translate( -10%, -60%);
+        width: 230%;
+    }
+    .main-container .right-sh,
+    .main-container .left-sh {
+        width: 80px;
+        z-index: 999;
+    }
+    app-info {
+        width: 100%;
+        display: flex;
+    }
+    .slide-info-tablette {
+        height: 30%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .slide-info {
+        height: 50%;
+        justify-content: space-between;
+    }
+    .slider {
+        display: none;
+    }
+    .left-pic {
+        position: relative;
+        display: block;
+        width: 25%;
+    }
+    .left-pic .top-sh {
+        height: 80px;
+    }
+    .left-pic img {
+        width: 100%;
+    }
+    .info-text {
+        width: 60%;
+        padding-right: 40px;
+        font-size: 12px;
     }
 }
