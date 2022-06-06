@@ -1,8 +1,8 @@
 # Montblanc - Motorcycle concept design
 
-![Design preview for the Montblanc - Motorcycle concept design desktop](./previepreview-desktop.png)
-![Design preview for the Montblanc - Motorcycle concept design tablet](./previepreview-tablet.png)
-![Design preview for the Montblanc - Motorcycle concept design mobile](./previepreview-mobile.png)
+![Design preview for the Montblanc - Motorcycle concept design desktop](assets/previepreview-desktop.png)
+![Design preview for the Montblanc - Motorcycle concept design tablet](assets/previepreview-tablet.png)
+![Design preview for the Montblanc - Motorcycle concept design mobile](assets/previepreview-mobile.png)
 
 ## Welcome! 👋
 
