@@ -20,7 +20,6 @@ export class NavComponent implements OnInit {
   @HostListener('window:resize', ['$event'])
   onWindowResize() {
     if(window.innerWidth <= 1010 && window.innerWidth >= 450) {
-      console.log("ok")
       this.isTablet = true;
     } else {
 
